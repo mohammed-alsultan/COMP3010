@@ -1,0 +1,2 @@
+index=botsv3 sourcetype="aws:cloudtrail" eventName="PutBucketAcl"
+| table requestParameters.bucketName
